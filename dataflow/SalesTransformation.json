@@ -10,9 +10,6 @@
 						"type": "DatasetReference"
 					},
 					"name": "source1"
-				},
-				{
-					"name": "source2"
 				}
 			],
 			"sinks": [
@@ -49,8 +46,6 @@
 				"     validateSchema: false,",
 				"     ignoreNoFilesFound: false,",
 				"     rowUrlColumn: 'filepath') ~> source1",
-				"source(allowSchemaDrift: true,",
-				"     validateSchema: false) ~> source2",
 				"source1 filter(SALES >= \"2000\") ~> filter1",
 				"filter1 aggregate(groupBy(YEAR_ID,",
 				"          MONTH_ID),",
