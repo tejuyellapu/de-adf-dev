@@ -1,0 +1,9 @@
+{
+	"name": "ADF-DElearn",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "57a79c66-5879-4ce2-89a4-f5bc9c3937fd",
+		"tenantId": "1e7cdf5f-8264-48e6-8a6c-6f77f773480a"
+	}
+}
